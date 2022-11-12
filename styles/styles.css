@@ -15,12 +15,31 @@
   font-display: swap;
 }
 
+html{
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
   background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 li {
@@ -34,12 +53,47 @@ a {
   background: #ffffff;
   color: #000000;
 }
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 340px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  display: flex;
+  justify-content: space-around;
+  max-width: 270px;
+  margin-left: auto;
+  padding: 0;
+}
+
 .navigation-link {
+  display: block;
+  padding: 24px 19px;
   color: inherit;
   background: #ffffff;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+}
+
+.navigation-user .navigation-link {
+  min-width: 16px;
+  min-height: 22px;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .main-index {
@@ -48,14 +102,20 @@ a {
   text-align: center;
 }
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome {
+  display: block;
+  margin: 0 auto;
+}
+
 .greeting{
   background-image: url('../images/index-background.jpg') ;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
 }
 
 .welcome-title {
@@ -71,6 +131,16 @@ a {
   color: #333333;
   background: #ffffff;
  }
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.advantages-item {
+  width: 400px;
+}
 
 .box-blue {
   background: #82B3D3
@@ -114,6 +184,16 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.services-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.services-item {
+  width: 400px;
 }
 
 .services-title {
@@ -195,6 +275,10 @@ color: #333333;
   display: flex;
  justify-content: space-around;
  align-items: center;
+}
+
+.page-footer-container {
+  width: 1200px;
 }
 
 
