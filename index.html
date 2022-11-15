@@ -10,10 +10,10 @@
     <header class="main-header">
       <nav class="navigation">
         <a class="main-header-logo">
-          <img src='./images/logo-sedona.svg' width="140" height="70" alt="Логотип Седоны">
+          <img class="logo" src='./images/logo-sedona.svg' width="140" height="70" alt="Логотип Седоны">
         </a>
         <ul class="navigation-list">
-          <li class="navigation-item">
+          <li class="navigation-item navigation-current">
             <a class="navigation-link" href=#>Главная</a>
           </li>
           <li class="navigation-item">
@@ -28,6 +28,9 @@
               <span class="visually-hidden">
                 Поиск
               </span>
+              <svg width="44" height="64" viewBox="0 0 44 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.5 40.0083L27.8 36.3287C28.8 35.0359 29.5 33.3453 29.5 31.4558C29.5 27.0801 25.9 23.5 21.5 23.5C17.1 23.5 13.5 27.1796 13.5 31.5552C13.5 35.9309 17.1 39.511 21.5 39.511C23.3 39.511 25 38.9144 26.4 37.8204L30.1 41.5L31.5 40.0083ZM21.5 37.5221C18.2 37.5221 15.5 34.837 15.5 31.5552C15.5 28.2735 18.2 25.5884 21.5 25.5884C24.8 25.5884 27.5 28.2735 27.5 31.5552C27.5 34.837 24.8 37.5221 21.5 37.5221Z" fill="black"/>
+              </svg>
             </a>
           </li>
           <li class="navigation-item">
@@ -35,6 +38,11 @@
               <span class="visually-hidden">
                 Избранное
               </span>
+              <svg width="44" height="64" viewBox="0 0 44 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.9 41C21.6 41 21.3 40.9 21.1 40.6C15.7 34.5 14.4 33.1 14.1 32.7C13.4 31.8 13 30.6 13 29.4C13 26.4 15.4 24 18.5 24C19.8 24 21 24.5 22 25.3C23 24.5 24.3 24 25.5 24C28.5 24 31 26.4 31 29.4C31 30.7 30.5 31.9 29.7 32.8L22.7 40.7C22.5 40.9 22.3 41 21.9 41ZM15.9 31.5C16.2 31.9 19.4 35.5 22 38.4L28.2 31.4C28.7 30.9 28.9 30.2 28.9 29.4C28.9 27.6 27.4 26.1 25.6 26.1C24.6 26.1 23.6 26.6 22.9 27.4C22.6 27.7 22.3 27.8 22 27.8C21.7 27.8 21.4 27.6 21.2 27.4C20.5 26.6 19.5 26.1 18.5 26.1C16.7 26.1 15.2 27.6 15.2 29.4C15.1 30.3 15.5 31 15.9 31.5C15.8 31.5 15.8 31.5 15.9 31.5Z" fill="black"/>
+                <rect x="20" y="11" width="20" height="20" rx="10" fill="#7DB54F"/>
+                <path d="M25.1308 24.26H26.5308V19.42L26.6308 18.83L26.2308 19.3L25.1308 20.09L24.7508 19.58L26.9508 17.88H27.3108V24.26H28.6808V25H25.1308V24.26ZM33.96 19.59C33.96 19.9433 33.8933 20.3067 33.76 20.68C33.6333 21.0467 33.4633 21.4167 33.25 21.79C33.0433 22.1633 32.81 22.53 32.55 22.89C32.29 23.2433 32.03 23.58 31.77 23.9L31.28 24.33V24.37L31.92 24.26H34.1V25H30.12V24.71C30.2667 24.5567 30.4433 24.3667 30.65 24.14C30.8567 23.9133 31.07 23.6633 31.29 23.39C31.5167 23.11 31.7367 22.8167 31.95 22.51C32.17 22.1967 32.3667 21.88 32.54 21.56C32.72 21.24 32.8633 20.9233 32.97 20.61C33.0767 20.2967 33.13 20 33.13 19.72C33.13 19.3933 33.0367 19.1233 32.85 18.91C32.6633 18.69 32.38 18.58 32 18.58C31.7467 18.58 31.5 18.6333 31.26 18.74C31.02 18.84 30.8133 18.9567 30.64 19.09L30.31 18.52C30.5433 18.32 30.82 18.1633 31.14 18.05C31.46 17.9367 31.8033 17.88 32.17 17.88C32.4567 17.88 32.71 17.9233 32.93 18.01C33.15 18.09 33.3367 18.2067 33.49 18.36C33.6433 18.5133 33.76 18.6967 33.84 18.91C33.92 19.1167 33.96 19.3433 33.96 19.59Z" fill="white"/>
+              </svg>
             </a>
           </li>
           <li class="navigation-item">
@@ -59,31 +67,33 @@
         <ul class="advantages-list">
 
           <li class="advantages-item box-blue element-1">
-              <h3 class="advantages-title-white">Настоящий<br>городок</h3>
+              <h3 class="advantages-title-white line line-w">Настоящий<br>городок</h3>
               <p class="advantages-description-white">Седона — не аттракцион для<br>туристов, там течёт своя<br>жизнь</p>
           </li>
 
-          <img class="advantages-images element-2" src="images/photo-1.jpg" width="800" height="384" alt="Вид городка Седона">
+          <li class="element-2 advantages-item">
+            <img class="advantages-images" src="images/photo-1.jpg" width="800" height="384" alt="Вид городка Седона">
+          </li>
 
           <li class="advantages-item box-grey element-3">
-              <h3 class="advantages-title">Небольшая<br>площадь</h3>
+              <h3 class="advantages-title line">Небольшая<br>площадь</h3>
               <p class="advantages-description">Все достопримечательности<br>находятся очень близко</p>
           </li>
 
           <li class="advantages-item box-2-grey element-4">
-              <h3 class="advantages-title">Красивая<br>дорога</h3>
+              <h3 class="advantages-title line">Красивая<br>дорога</h3>
               <p class="advantages-description">Ехать в Седону из Лас-Вегаса<br>совсем не скучно!</p>
           </li>
 
           <li class="advantages-item box-grey element-5">
-              <h3 class="advantages-title">Мало<br>туристов</h3>
+              <h3 class="advantages-title line">Мало<br>туристов</h3>
               <p class="advantages-description">Большинство едет в Гранд<br>Каньон и толпится там</p>
           </li>
 
-          <img class="advantages-images element-6" src="images/photo-2.jpg" width="800" height="384" alt="Мост Дьявола">
+          <li class="element-6 advantages-item"><img class="advantages-images" src="images/photo-2.jpg" width="800" height="384" alt="Мост Дьявола"></li>
 
           <li class="advantages-item box-blue element-7">
-              <h3 class="advantages-title-white">Там есть<br>мост Дьявола</h3>
+              <h3 class="advantages-title-white line line-w">Там есть<br>мост Дьявола</h3>
               <p class="advantages-description-white">Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется</p>
           </li>
         </ul>
@@ -141,15 +151,21 @@
         <li class="footer-social-item">
           <a class="footer-social-link twitter" href="https://twitter.com/htmlacademy_ru">
             <span class="visually-hidden">
-              Твиттер.
+              Вконтакте
             </span>
+            <svg width="24" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M23.45.95c.17-.55 0-.95-.8-.95h-2.62c-.67 0-.98.35-1.14.73 0 0-1.34 3.2-3.23 5.27-.61.6-.89.8-1.22.8-.17 0-.42-.2-.42-.74V.95c0-.66-.18-.95-.74-.95H9.15c-.42 0-.67.3-.67.6 0 .61.95.76 1.05 2.5v3.8c0 .84-.16.99-.5.99-.88 0-3.05-3.21-4.33-6.89-.25-.71-.5-1-1.17-1H.9C.15 0 0 .35 0 .73c0 .68.89 4.07 4.14 8.55C6.32 12.34 9.38 14 12.15 14c1.67 0 1.88-.37 1.88-1v-2.32c0-.73.16-.88.69-.88.38 0 1.05.2 2.61 1.67C19.11 13.22 19.4 14 20.41 14h2.62c.75 0 1.13-.37.91-1.1-.24-.72-1.09-1.77-2.21-3.02-.62-.7-1.54-1.47-1.81-1.86-.4-.49-.28-.7 0-1.14 0 0 3.2-4.43 3.53-5.93Z" fill="#83B3D3"/>
+            </svg>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="footer-social-link facebook" href="https://www.facebook.com/htmlacademy">
             <span class="visually-hidden">
-              Фейсбук.
+              Телеграм.
             </span>
+            <svg width="18" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.79.1.84 6.25c-1.09.43-1.08 1.04-.2 1.31l4.1 1.28 9.47-5.98c.44-.27.85-.12.52.18L7.05 9.96l-.28 4.22c.41 0 .6-.19.83-.41l1.99-1.93 4.13 3.05c.77.42 1.31.2 1.5-.7l2.72-12.8c.28-1.12-.43-1.62-1.16-1.3Z" fill="#83B3D3"/>
+            </svg>
           </a>
         </li>
         <li class="footer-social-item">
@@ -157,6 +173,9 @@
             <span class="visually-hidden">
               Ютуб.
             </span>
+            <svg width="22" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.6 0H3.18C1.31 0 0 1.6 0 3.4v10.1C0 15.4 1.31 17 3.17 17h15.66c1.64 0 3.17-1.6 3.17-3.4V3.4C21.78 1.6 20.47 0 18.6 0ZM7.67 12.54V4.46L15 8.5l-7.33 4.04Z" fill="#83B3D3"/>
+            </svg>
           </a>
         </li>
       </ul>
