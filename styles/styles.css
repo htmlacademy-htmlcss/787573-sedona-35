@@ -54,9 +54,11 @@ a {
   color: #000000;
   min-height: 64px;
   display: flex;
-  margin: 0 351px;
+  margin: 0 auto;
+  padding: 0 35px;
+  position: relative;
+  box-shadow: 0 0 15px 0 #00000033;
 }
-
 
 .main-container {
   flex-grow: 1;
@@ -73,10 +75,6 @@ a {
   margin: 0 auto;
   background-color: #FFFFFF;
   box-shadow: 0 0 15px 0 #00000033;
-}
-
-.main-header {
-  position: relative;
 }
 
 .navigation-logo {
@@ -266,7 +264,7 @@ a {
 .greeting::after {
   content:  url("../images/decor-img.svg");
   position: absolute;
-  min-height: 83px;
+  min-height: 90px;
   margin-bottom: 0;
   display: flex;
   align-items: flex-end;
